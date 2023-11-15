@@ -97,7 +97,7 @@
     <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
     <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
     <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-    <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+    <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
     <kafka.version>2.0.0</kafka.version>
     <kafka.spark3.version>2.8.0</kafka.spark3.version>
     <pulsar.version>2.8.1</pulsar.version>
@@ -135,7 +135,7 @@
     <spark.version>${spark3.version}</spark.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.4.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.17.version>1.17.1</flink1.17.version>
     <flink1.16.version>1.16.2</flink1.16.version>
     <flink1.15.version>1.15.1</flink1.15.version>
@@ -649,7 +649,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -2169,7 +2169,7 @@
         <fasterxml.version>2.6.7</fasterxml.version>
         <fasterxml.jackson.databind.version>2.6.7.3</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>2.6.7.1</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>2.7.4</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <skip.hudi-spark3.unit.tests>true</skip.hudi-spark3.unit.tests>
         <skipITs>true</skipITs>
       </properties>
@@ -2201,7 +2201,7 @@
         <fasterxml.version>2.6.7</fasterxml.version>
         <fasterxml.jackson.databind.version>2.6.7.3</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>2.6.7.1</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>2.7.4</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <skip.hudi-spark3.unit.tests>true</skip.hudi-spark3.unit.tests>
         <skipITs>false</skipITs>
       </properties>
@@ -2254,7 +2254,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <log4j2.version>2.19.0</log4j2.version>
         <slf4j.version>2.0.6</slf4j.version>
@@ -2305,7 +2305,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <skip.hudi-spark2.unit.tests>true</skip.hudi-spark2.unit.tests>
         <skipITs>true</skipITs>
@@ -2345,7 +2345,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <skip.hudi-spark2.unit.tests>true</skip.hudi-spark2.unit.tests>
         <skipITs>true</skipITs>
@@ -2386,7 +2386,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <skip.hudi-spark2.unit.tests>true</skip.hudi-spark2.unit.tests>
         <skipITs>true</skipITs>
@@ -2431,7 +2431,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <skip.hudi-spark2.unit.tests>true</skip.hudi-spark2.unit.tests>
         <skipITs>true</skipITs>
@@ -2475,7 +2475,7 @@
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
-        <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
+        <fasterxml.jackson.dataformat.yaml.version>2.13.4</fasterxml.jackson.dataformat.yaml.version>
         <pulsar.spark.version>${pulsar.spark.scala12.version}</pulsar.spark.version>
         <log4j2.version>2.19.0</log4j2.version>
         <slf4j.version>2.0.6</slf4j.version>
