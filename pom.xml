@@ -132,10 +132,10 @@
     <aws.sdk.httpclient.version>4.5.13</aws.sdk.httpclient.version>
     <aws.sdk.httpcore.version>4.4.13</aws.sdk.httpcore.version>
     <http.version>4.4.1</http.version>
-    <spark.version>${spark3.version}</spark.version>
+    <spark.version>3.4.3</spark.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.4.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.17.version>1.17.1</flink1.17.version>
     <flink1.16.version>1.16.2</flink1.16.version>
     <flink1.15.version>1.15.1</flink1.15.version>
@@ -649,7 +649,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -2155,7 +2155,7 @@
         <module>hudi-spark-datasource/hudi-spark2-common</module>
       </modules>
       <properties>
-        <spark.version>${spark2.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version/>
         <scalatest.version>${scalatest.spark_pre31.version}</scalatest.version>
         <hudi.spark.module>hudi-spark2</hudi.spark.module>
@@ -2187,7 +2187,7 @@
         <module>hudi-spark-datasource/hudi-spark2-common</module>
       </modules>
       <properties>
-        <spark.version>${spark2.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>2.4</sparkbundle.version>
         <scalatest.version>${scalatest.spark_pre31.version}</scalatest.version>
         <hudi.spark.module>hudi-spark2</hudi.spark.module>
@@ -2231,7 +2231,7 @@
       <id>spark3</id>
       <properties>
         <spark3.version>${spark34.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3</sparkbundle.version>
         <scala12.version>2.12.17</scala12.version>
         <scala.version>${scala12.version}</scala.version>
@@ -2285,7 +2285,7 @@
       <id>spark3.0</id>
       <properties>
         <spark3.version>${spark30.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3.0</sparkbundle.version>
         <scala.version>${scala12.version}</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
@@ -2325,7 +2325,7 @@
       <id>spark3.1</id>
       <properties>
         <spark3.version>${spark31.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3.1</sparkbundle.version>
         <scala.version>${scala12.version}</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
@@ -2365,7 +2365,7 @@
       <id>spark3.2</id>
       <properties>
         <spark3.version>${spark32.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3.2</sparkbundle.version>
         <scala.version>${scala12.version}</scala.version>
         <scala.binary.version>2.12</scala.binary.version>
@@ -2408,7 +2408,7 @@
       <id>spark3.3</id>
       <properties>
         <spark3.version>${spark33.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3.3</sparkbundle.version>
         <scala12.version>2.12.15</scala12.version>
         <scala.version>${scala12.version}</scala.version>
@@ -2452,7 +2452,7 @@
       <id>spark3.4</id>
       <properties>
         <spark3.version>${spark34.version}</spark3.version>
-        <spark.version>${spark3.version}</spark.version>
+        <spark.version>3.4.3</spark.version>
         <sparkbundle.version>3.4</sparkbundle.version>
         <scala12.version>2.12.17</scala12.version>
         <scala.version>${scala12.version}</scala.version>
