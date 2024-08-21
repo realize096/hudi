@@ -135,7 +135,7 @@
     <spark.version>${spark3.version}</spark.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.4.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.17.version>1.17.1</flink1.17.version>
     <flink1.16.version>1.16.2</flink1.16.version>
     <flink1.15.version>1.15.1</flink1.15.version>
@@ -187,7 +187,7 @@
     <javalin.version>4.6.7</javalin.version>
     <jetty.version>9.4.48.v20220622</jetty.version>
     <htrace.version>3.1.0-incubating</htrace.version>
-    <hbase.version>2.4.9</hbase.version>
+    <hbase.version>2.4.16</hbase.version>
     <h2.version>1.4.199</h2.version>
     <awaitility.version>3.1.2</awaitility.version>
     <skipTests>false</skipTests>
@@ -649,7 +649,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
