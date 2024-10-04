@@ -115,9 +115,9 @@
     <log4j2.version>2.17.2</log4j2.version>
     <slf4j.version>1.7.36</slf4j.version>
     <joda.version>2.9.9</joda.version>
-    <hadoop.version>2.10.1</hadoop.version>
+    <hadoop.version>3.4.0</hadoop.version>
     <hive.groupid>org.apache.hive</hive.groupid>
-    <hive.version>2.3.1</hive.version>
+    <hive.version>3.1.0</hive.version>
     <hive.parquet.version>1.10.1</hive.parquet.version>
     <hive.avro.version>1.8.2</hive.avro.version>
     <presto.version>0.273</presto.version>
@@ -135,7 +135,7 @@
     <spark.version>${spark3.version}</spark.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.4.1</spark3.version>
-    <sparkbundle.version></sparkbundle.version>
+    <sparkbundle.version/>
     <flink1.17.version>1.17.1</flink1.17.version>
     <flink1.16.version>1.16.2</flink1.16.version>
     <flink1.15.version>1.15.1</flink1.15.version>
@@ -169,7 +169,7 @@
                (hudi.spark.common.modules.*) -->
     <hudi.spark.common.modules.1>hudi-spark3-common</hudi.spark.common.modules.1>
     <hudi.spark.common.modules.2>hudi-spark3.2plus-common</hudi.spark.common.modules.2>
-    <avro.version>1.8.2</avro.version>
+    <avro.version>1.11.4</avro.version>
     <caffeine.version>2.9.1</caffeine.version>
     <commons.io.version>2.11.0</commons.io.version>
     <scala11.version>2.11.12</scala11.version>
@@ -649,7 +649,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -2164,7 +2164,7 @@
         <kafka.version>2.0.0</kafka.version>
         <parquet.version>1.10.1</parquet.version>
         <orc.spark.version>1.6.0</orc.spark.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.7</antlr.version>
         <fasterxml.version>2.6.7</fasterxml.version>
         <fasterxml.jackson.databind.version>2.6.7.3</fasterxml.jackson.databind.version>
@@ -2196,7 +2196,7 @@
         <kafka.version>2.0.0</kafka.version>
         <parquet.version>1.10.1</parquet.version>
         <orc.spark.version>1.6.0</orc.spark.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.7</antlr.version>
         <fasterxml.version>2.6.7</fasterxml.version>
         <fasterxml.jackson.databind.version>2.6.7.3</fasterxml.jackson.databind.version>
@@ -2248,7 +2248,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.12.3</parquet.version>
         <orc.spark.version>1.8.3</orc.spark.version>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.9.3</antlr.version>
         <fasterxml.spark3.version>2.14.2</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
@@ -2300,7 +2300,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.10.1</parquet.version>
         <orc.spark.version>1.5.13</orc.spark.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.8-1</antlr.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
@@ -2340,7 +2340,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.10.1</parquet.version>
         <orc.spark.version>1.5.13</orc.spark.version>
-        <avro.version>1.8.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.8-1</antlr.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
@@ -2381,7 +2381,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.12.2</parquet.version>
         <orc.spark.version>1.6.12</orc.spark.version>
-        <avro.version>1.10.2</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.8</antlr.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
         <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
@@ -2425,7 +2425,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.12.2</parquet.version>
         <orc.spark.version>1.7.8</orc.spark.version>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.8</antlr.version>
         <fasterxml.spark3.version>2.13.3</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
@@ -2469,7 +2469,7 @@
                    synchronized to avoid classpath ambiguity -->
         <parquet.version>1.12.3</parquet.version>
         <orc.spark.version>1.8.3</orc.spark.version>
-        <avro.version>1.11.1</avro.version>
+        <avro.version>1.11.4</avro.version>
         <antlr.version>4.9.3</antlr.version>
         <fasterxml.spark3.version>2.14.2</fasterxml.spark3.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
